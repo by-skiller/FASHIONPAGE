@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
+
+@font-face {
+    font-family: 'aesthetic_5';
+    src: url(/fontes/aesthetic_5/Aesthetic-Regular.otf);
+}
+:root {
+    --fonte-titulo: 'Instrument Serif', serif; 
+    --font-subtitulo: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(245, 160, 174), rgb(240, 182, 192) ,#f3e1f0);
+    font-family: var(--font-subtitulo);
+    padding: 15px;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+header {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    line-height: 32px;
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+.menu {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav > a {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    color: violet;
+}
+
+main {
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 100px;
+    
+}
+
+article {
+    margin: 0px 78px 0px 4px;
+}
+
+section > .conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.amoda {
+    color: white;
+font-family: 'aesthetic_5';
+font-size: 70px;
+padding: 0px 0px 20px 50px;
+text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
+}
+
+.nunca {
+    color: rgb(255, 255, 255);
+    font-family: 'aesthetic_5';
+    font-size: 60px;
+    padding: 0px 0px 20px 210px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
+}
+
+.dorme {
+    color: white;
+    font-family: 'aesthetic_5';
+    padding: 0px 0px 0px 300px;
+    font-size: 75px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.527);
+}
+
+section > .pink {
+    margin: -450px 30px 50px 0px;
+    text-align: right;
+    
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 3px 1px 9px rgba(0, 0, 0, 0.116);
+}
+
+section.texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    width: 50%;
+    margin: 1px
+}
+
+.lorem {
+    max-width: 600px;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: var(--fonte-titulo);
+}
+
+#saibamais > a {
+    font-family: var(--fonte-titulo);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+#saibamais > a:hover {
+    background-color: rgb(226, 153, 226);
+    color: white;
+}
+footer {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
